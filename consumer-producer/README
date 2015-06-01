@@ -1,0 +1,7 @@
+Part 1 (multi-thread) is stored in the folder labeled "Part 1". Part 2 (multi-process) is stored in the folder labeled "Part 2". These instructions can be used for both parts.
+
+Type make to build the executable, produce.
+
+Type make clean to remove all files, but the original C files
+
+To run produce, type in ./produce 20 2 1 3 , where 20 is the number of messages to be sent, 2 is the message queue size, 1 is the number of producers to create, 3 is the number of consumers to create. The message queue size has a maximum size of 10 in Part 2. Timing stats along with the integers consumed will be displayed.
